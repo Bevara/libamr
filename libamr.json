@@ -1,0 +1,18 @@
+{
+    "name": "libamr",
+    "description": "AMR narrowband and wideband decoder",
+    "filters":["amrdec"],
+    "help": "This filter decodes AMR-NB and AMR-WB speech files using opencore-amr.",
+    "support": [
+        "audio"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libamr.accessor",
+    "filter_source":{
+        "amrdec" : "dec_amr.c"
+    },
+    "extension":{
+      "amr" : "audio",
+      "awb" : "audio"
+    },
+    "licence_required":false
+}
