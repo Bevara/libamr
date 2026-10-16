@@ -14,6 +14,10 @@
       "amr" : "audio",
       "awb" : "audio"
     },
-    "licence_required":false,
-    "using": ["solver_minimal_1", "solver_1"]
+    "using": ["solver_minimal_1", "solver_1"],
+    "patents": {
+        "status": "under-review",
+        "note": "AMR-NB/AMR-WB",
+        "checked": "2026-10-16"
+    }
 }
