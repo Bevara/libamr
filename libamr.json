@@ -1,5 +1,6 @@
 {
     "name": "libamr",
+    "version": "1.0.1",
     "description": "AMR narrowband and wideband decoder",
     "filters":["amrdec"],
     "help": "This filter decodes AMR-NB and AMR-WB speech files using opencore-amr.",
@@ -14,7 +15,7 @@
       "amr" : "audio",
       "awb" : "audio"
     },
-    "using": ["solver_minimal_1", "solver_1"],
+    "using": ["mm_solver_minimal_1.0.1", "mm_solver_1.0.1"],
     "patents": {
         "status": "under-review",
         "note": "AMR-NB/AMR-WB",
